@@ -8,3 +8,9 @@ int getSum(std::vector<int> numbers)
     }
     return sum;
 }
+
+int getAverage(std::vector<int> numbers)
+{
+    int sum = getSum(numbers);
+    return sum / numbers.size();
+}
